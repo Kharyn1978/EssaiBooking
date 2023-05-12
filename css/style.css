@@ -1,0 +1,110 @@
+
+@font-face {
+  font-family: "charlotte";
+  src: url("../fonts/charlotte.ttf"),
+      url("../fonts/charlotte.ttf") format("truetype");
+}
+@font-face {
+  font-family: "goingtodogreatthings";
+  src: url("../fonts/goingtodogreatthings.ttf"),
+      url("../fonts/goingtodogreatthings.ttf") format("truetype");
+}
+
+body {
+  margin: 30px;
+  font-size: 18px;
+  color: #333;
+}
+h1 {
+  font-family: charlotte;
+  color: #65350F;
+}
+h2, h3 {
+  font-family: goingtodogreatthings;
+  font-weight: bold;
+}
+a, a:hover { 
+  text-decoration: none;
+}
+/*#menu {
+width: 60%;
+  display: inline-block;
+  text-align: right;
+}
+#menu a {
+  text-decoration: none;
+  display: inline-block;
+}*/
+.welcome {
+  text-align: center;
+  margin: 20px auto 35px;
+}
+.userForms {
+  text-align: center;
+  border-left: 3px solid #65350F;
+  border-right: 3px solid #65350F;
+}
+.userForms.registerUser {
+  /*display: none;*/
+}
+.userForms .error {
+  color: #ff0000;
+}
+.userForms .section {
+  margin-bottom: 10px;
+}
+.navbar-brand {
+  font-family: charlotte;
+}
+.navbar #menu {
+  padding: 10px 0;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar ul li {
+  padding: 0 5px;
+}
+
+.section.welcomeMessage {
+  display: block;
+}
+.section.title {
+  border-bottom: 2px solid #65350F;
+  margin: 10px auto;
+  text-align: center;
+}
+#hotels {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+#hotels .singleHotel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  min-width: 30%;
+}
+#hotels .hotelImage{
+  display: inline-block;
+  position: relative;
+}
+#hotels .hotelImage img{
+  
+  width: 150px;
+  height: 200px;
+}
+#hotels .hotelImage .hotelRating{
+  position: absolute;
+  top: 0;
+  background-color: #65350F;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 8px;
+}
+#hotels .hotelInfo{
+  display: inline-block;
+  width: 70%;
+}
